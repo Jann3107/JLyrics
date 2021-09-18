@@ -41,6 +41,6 @@ System.out.println(lyrics.getContent()); // As he came into the window ...
 	<dependency>
 	    <groupId>com.github.Jann3107</groupId>
 	    <artifactId>JLyrics</artifactId>
-	    <version>master-SNAPSHOT</version>
+	    <version>1.0.0</version>
 	</dependency>
 ```
