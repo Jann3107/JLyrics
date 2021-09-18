@@ -1,11 +1,13 @@
-[![Download](https://api.bintray.com/packages/jagrosh/maven/JLyrics/images/download.svg)](https://bintray.com/jagrosh/maven/JLyrics/_latestVersion)
 [![Stars](https://img.shields.io/github/stars/jagrosh/JLyrics.svg)](https://github.com/jagrosh/JLyrics/stargazers)
 [![License](https://img.shields.io/github/license/jagrosh/JLyrics.svg)](https://github.com/jagrosh/JLyrics/blob/master/LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/jagrosh/jlyrics/badge)](https://www.codefactor.io/repository/github/jagrosh/jlyrics)
 [![Build status](https://ci.appveyor.com/api/projects/status/7gyee0nnox0y4756?svg=true)](https://ci.appveyor.com/project/jagrosh/jlyrics)
 
-# JLyrics  
+# JLyrics 
 🎼 Expandable lyrics-scraping API for Java
+
+# Info
+Forked from jagrosh/JLyrics as they didnt update the Maven repo and Bintray shutdown.
 
 ## Example
 ```java
@@ -24,21 +26,21 @@ System.out.println(lyrics.getContent()); // As he came into the window ...
   * A-Z Lyrics
   * Genius
   * MusixMatch
-  * [your contribution here]
 
 ## Maven Setup
 ```xml
-<repository>
-    <id>central</id>
-    <name>bintray</name>
-    <url>http://jcenter.bintray.com</url>
-</repository>
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 ```
 
 ```xml
-<dependency>
-    <groupId>com.jagrosh</groupId>
-    <artifactId>JLyrics</artifactId>
-    <version>VERSION</version>
-</dependency>
+	<dependency>
+	    <groupId>com.github.Jann3107</groupId>
+	    <artifactId>JLyrics</artifactId>
+	    <version>Tag</version>
+	</dependency>
 ```
